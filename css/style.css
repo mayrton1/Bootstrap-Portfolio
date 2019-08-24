@@ -299,3 +299,28 @@ input[type=submit] {
   }
 
 }
+@media only screen and (max-width: 640px) {
+  .main-section {
+    text-align: center;
+  }
+  
+  img.spotlight {
+    float: none;
+  }
+
+  /* HEADER */
+  #masthead .container {
+    padding: 0px;
+  } 
+  
+  #logo {
+    width: 100%;
+  }
+  
+  #masthead nav {
+    float: none;
+    text-align: center;
+    margin-top: 0;
+    margin-right: 0p;
+    padding-bottom: 5px;
+  }
